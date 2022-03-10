@@ -8,4 +8,4 @@ ON U.user_id = His.user_id
 JOIN SpotifyClone.Cancoes AS C
 ON His.song_id = C.song_id
 GROUP BY U.username
-ORDER BY U.username; 
+ORDER BY U.username;
